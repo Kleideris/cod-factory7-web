@@ -1,0 +1,138 @@
+:root {
+    --color-light: rgb(201,197,197);
+    --color-primary: #007bff;
+    /* --- */
+    --color-error: #ff4b4b;
+    --color-primary2: #228ffc;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.border-light {
+    border: 1px solid var(--color-light);
+}
+
+.box-center {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+/* --- */
+.mt-xsm {
+    margin-top: 8px;
+}
+
+.mt-sm {
+    margin-top: 25px;
+}
+
+.mb-sm {
+    margin-bottom: 25px;
+}
+/* --- */
+.mb-xsm {
+    margin-bottom: 10px;
+}
+/* --- */
+.p-1 {
+    padding: 6px;
+}
+
+.p-5 {
+    padding: 2.5rem;
+}
+
+.text-serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* --- */
+.text-md {
+    font-size: 1.1rem;
+}
+
+.text-lg {
+    font-size: 1.7rem;
+}
+
+.text-semibold {
+    font-weight: 500;
+}
+/* --- */
+.text-bold {
+    font-weight: 700;
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+
+
+/* Τα υπόλοιπα μόνοι μας......... */
+.min-h {
+    min-height: 60px;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.transition-border-color {
+    /* ??? */
+}
+
+.width-lg {
+    width: 100%;
+}
+
+text.grey {
+    color: var(--color-light);
+}
+
+.mt-error {
+    margin-top: 3px;
+}
+
+.color-error {
+    color: var(--color-error)
+}
+
+.hidden {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.btn {
+    height: 50px;
+    width: 140px;
+    background-color: var(--color-white);
+    border: 3px solid var(--color-primary2);
+    border-radius: 12px;
+    color: var(--color-primary2);
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+input::placeholder {
+    color: var(--color-light);
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}

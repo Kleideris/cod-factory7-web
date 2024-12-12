@@ -1,0 +1,32 @@
+h1 {
+    color: rgb(55, 94, 158);
+
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profession {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(153, 153, 153);
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont-info {
+    border: 4px solid purple;
+    width: 25%;
+    background-color: rgb(238, 238, 238);
+}
+
+a:link {
+    color: orangered;
+}
+
+a:visited {
+    color: orangered;
+}

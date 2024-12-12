@@ -1,0 +1,20 @@
+p {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+#cfText {
+    color: aqua;
+}
+
+.cf-text {
+    color: green!;
+}
+
+p {
+    color: yellow!;
+}
+

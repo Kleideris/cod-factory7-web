@@ -1,0 +1,38 @@
+body {
+    background-color: lightgray;
+}
+
+.container {
+    width: 80%;
+    /* Συντόμευση των 3 εντολών σε 1:
+    border-width: 1px;
+    border-style: solid;
+    border-color: balck; */
+    border: 1px solid black;
+    background-color: brown;
+}
+
+.container-fluid {
+    width: 90%;
+    border: 1px double red;
+}
+
+.aueb-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+
+.icon-small {
+    width: 150px;
+    height: auto;
+}
+
+.courses-wrapper {
+    background-color: aquamarine;
+}
+
+.courses-text {
+    color: beige;
+    font-size: 1.1rem;
+}
