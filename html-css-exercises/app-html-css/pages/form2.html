@@ -23,7 +23,7 @@
         </nav>
     </header>
 
-    <div class="d-flex fex-row ">
+    <div class="d-flex fex-row">
         <aside class="bg-gov-blue text-lightgrey-200 p-1">
             <p class="mb-1 font-size-1">
                 <i class="fa-solid fa-house"></i>
@@ -69,92 +69,103 @@
                 <h2 class="text-center font-size-2 mb-2 mt-2">Στοιχεία Ιδιοκτήτη/Αιτούντα</h2>
                 <p class="border border-lightgrey-300 bg-lightgrey-200 text-lightgrey-500 p-1">Παρακαλώ εισάγετε τα στοιχεία σας</p>
 
-                <form class="mt-1">
-                    <div class="mb-2">
-                        <span><strong>Εντοπισμός Οικοπέδου:</strong></span>
-                        <input class="ml-1" type="radio" checked="checked" name="fieldRadio" id="kaek">
-                        <label class="ml-05" for="kaek">KAEK</label>
-                        <input class="ml-1" type="radio" name="fieldRadio" id="coordinates">
-                        <label class="ml-05" for="coordinates">Συντεταγμένες (x,y)</label>
-                        <span class="ml-1 info">i</span>
-                    </div>
-
-                    <div>
-                        <p>Παρακαλώ εισάγετε το KAEK του οικοπέδου και πατήστε αναζήτηση</p>
-                        <fieldset>
-                            <legend class="font-size-075 text-lightgrey-500">KAEK*</legend>
-                            <input class="col-12 h-2 no-border pl-1" type="text">
-                        </fieldset>
-                        <span class="text-info">Εισάγετε το KAEK του οικοπέδου</span>
-                    </div>
-
-                    <div class="mb-2 d-flex flex-row">
+                <form class="mt-1" action="">
+                    <div class="d-flex flex-row mb-2">
                         <div class="col-6">
-                            <fieldset>
-                                <legend class="font-size-075 text-lightgrey-500">Νομός*</legend>
-                                <select class="no-border col-12 h-2 pl-1 bg-white" name="" id="">
-                                    <option value="">Χανίων</option>
-                                    <option value="">Αττικής</option>
-                                    <option value="">Ιωαννίνων</option>
-                                </select>
+                            <fieldset class="bg-lightgrey-200">
+                                <legend class="font-size-075 text-lightgrey-500">Όνομα*</legend>
+                                <input class="no-border col-11 bg-lightgrey-200 h-2 pl-1 text-lightgrey-500" type="text" value="ΜΕΝΕΛΑΟΣ" disabled >
+                                <span><i class="fa-solid fa-lock"></i></span>
                             </fieldset>
-                            <span class="text-info">Επιλέξτε Νομό</span>
+                            <span class="text-info">Πεδίο μόνο γιά προβολή</span>
                         </div>
                         <div class="col-6 ml-1">
-                            <fieldset class="font-size-075 text-lightgrey-500">
-                                <legend>Δήμος</legend>
-                                <select class="no-border col-12 bg-white pl-1 h-2" name="" id="">
-                                    <option value="">Δήμος 1</option>
-                                    <option value="">Δήμος 2</option>
-                                    <option value="">Δήμος 3</option>
-                                </select>
+                            <fieldset class="bg-lightgrey-200">
+                                <legend class="font-size-075 text-lightgrey-500">Επώνυμο*</legend>
+                                <input class="no-border col-11 bg-lightgrey-200 h-2 pl-1 text-lightgrey-500" type="text" value="ΓΟΥΛΑΝΔΡΗΣ" disabled >
+                                <span><i class="fa-solid fa-lock"></i></span>
                             </fieldset>
-                            <span class="text-info">Επιλέξτε Δήμο</span>
-                            
+                            <span class="text-info">Πεδίο μόνο γιά προβολή</span>
                         </div>
                     </div>
-                    <div class="mb-2 d-flex flex-row">
+
+                    <div class="d-flex flex-row mb-2">
                         <div class="col-6">
-                            <input class="col-12 h-25 pl-1" type="text" placeholder="Δημοτική Ενότητα">
-                            <span class="text-info">Εισάγετε Δημοτική Ενότητα</span>
+                            <fieldset class="bg-lightgrey-200">
+                                <legend class="font-size-075 text-lightgrey-500">ΑΦΜ*</legend>
+                                <input class="no-border col-11 bg-lightgrey-200 h-2 pl-1 text-lightgrey-500" type="text" value="111111" disabled>
+                                <span><i class="fa-solid fa-lock"></i></span>
+                            </fieldset>
+                            <span class="text-info">Πεδίο μόνο γιά προβολή</span>
                         </div>
                         <div class="col-6 ml-1">
-                            <input class="col-12 h-25 pl-1" type="text" placeholder="Οικισμός">
-                            <span class="text-info">Εισάγετε Οικισμό</span>
+                            <fieldset class="bg-lightgrey-200">
+                                <legend class="font-size-075 text-lightgrey-500">Πατρώνυμο*</legend>
+                                <input class="no-border col-11 bg-lightgrey-200 h-2 pl-1 text-lightgrey-500" type="text" value="ΚΩΣΤΑΣ" disabled>
+                                <span><i class="fa-solid fa-lock"></i></span>
+                            </fieldset>
+                            <span class="text-info">Πεδίο μόνο γιά προβολή</span>
                         </div>
                     </div>
-                    <div class="d-flex flex-row">
+
+                    <div class="d-flex flex-row mb-2">
+                        <div class="col-6">
+                            <fieldset class="bg-lightgrey-200">
+                                <legend class="font-size-075 text-lightgrey-500">Τηλέφωνο*</legend>
+                                <input class="no-border col-11 bg-lightgrey-200 h-2 pl-1 text-lightgrey-500" type="text" value="11888" disabled>
+                                <span><i class="fa-solid fa-lock"></i></span>
+                            </fieldset>
+                            <span class="text-info">Πεδίο μόνο γιά προβολή</span>
+                        </div>
+                        <div class="col-6 ml-1">
+                            <fieldset class="bg-lightgrey-200">
+                                <legend class="font-size-075 text-lightgrey-500">Email*</legend>
+                                <input class="no-border col-11 bg-lightgrey-200 h-2 pl-1 text-lightgrey-500" type="email" value="goulandris@notmail.com" disabled>
+                                <span><i class="fa-solid fa-lock"></i></span>
+                            </fieldset>
+                            <span class="text-info">Πεδίο μόνο γιά προβολή</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-2">
                         <div class="col-4">
-                            <fieldset>
-                                <legend class="font-size-075 text-lightgrey-500">Οδός</legend>
-                                <input class="no-border col-12 h-2 pl-1" type="text">
+                            <fieldset class="bg-lightgrey-200">
+                                <legend class="font-size-075 text-lightgrey-500">Διεύθυνση*</legend>
+                                <input class="no-border col-11 bg-lightgrey-200 h-2 pl-1 text-lightgrey-500" type="text" value="Κεφαλληνίας Κάπου" disabled>
+                                <span><i class="fa-solid fa-lock"></i></span>
                             </fieldset>
-                            <span class="text-info">Εισάγετε Οδό</span>
+                            <span class="text-info">Πεδίο μόνο γιά προβολή</span>
                         </div>
                         <div class="col-4 ml-1">
-                            <fieldset>
-                                <legend class="font-size-075 text-lightgrey-500">Αριθμός</legend>
-                                <input class="no-border col-12 h-2 pl-1" type="text">
+                            <fieldset class="bg-lightgrey-200">
+                                <legend class="font-size-075 text-lightgrey-500">Αριθμός*</legend>
+                                <input class="no-border col-11 bg-lightgrey-200 h-2 pl-1 text-lightgrey-500" type="τεχτ" value="20" disabled>
+                                <span><i class="fa-solid fa-lock"></i></span>
                             </fieldset>
-                            <span class="text-info">Εισάγετε Αριθμό</span>
+                            <span class="text-info">Πεδίο μόνο γιά προβολή</span>
                         </div>
                         <div class="col-4 ml-1">
-                            <fieldset>
-                                <legend class="font-size-075 text-lightgrey-500">T.K</legend>
-                                <input class="no-border col-12 h-2 pl-1" type="text">
+                            <fieldset class="bg-lightgrey-200">
+                                <legend class="font-size-075 text-lightgrey-500">T.K*</legend>
+                                <input class="no-border col-11 bg-lightgrey-200 h-2 pl-1 text-lightgrey-500" type="text" value="12323" disabled>
+                                <span><i class="fa-solid fa-lock"></i></span>
                             </fieldset>
-                            <span class="text-info">Εισάγετε T.K</span>
+                            <span class="text-info">Πεδίο μόνο γιά προβολή</span>
                         </div>
-                    </div>
-
-                    <div class="d-flex flex-row justify-end">
-                        <a class="bg-green text-white p-1 text-decoration-none" href="../pages/form2.html">
-                            Επόμενο
-                            <span class="ml-05"></span><i class="fa-solid fa-greater-than"></i>
-                        </a>
                     </div>
                 </form>
 
+                <div class="d-flex flex-row">
+                    <div>
+                        <a class="bg-green text-white p-1 text-decoration-none" href="./form1.html"><span><i class="fa-solid fa-less-than"></i></span>
+                            Πίσω</a>
+                    </div>
+                    <div>
+                        <a class="bg-green text-white p-1 text-decoration-none" href="./form3.html">Επόμενο
+                            <span><i class="fa-solid fa-greater-than"></i></span>
+                        </a>
+                    </div>
+                </div>
             </section>
         </main>
     </div>
