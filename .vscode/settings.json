@@ -1,3 +1,5 @@
 {
-    "print.colourScheme": "Visual Studio"
+    "print.colourScheme": "Visual Studio",
+    "print.filepathHeadingForIndividuallyPrintedDocuments": false,
+    "print.folder.fileNames": true
 }

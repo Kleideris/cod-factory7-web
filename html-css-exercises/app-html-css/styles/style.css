@@ -108,6 +108,12 @@ main {
     padding-left: 1rem;
 }
 
+textarea {
+    resize: none;
+    height: 100px;
+    width: 95%;
+}
+
 /* General Styling */
 
 /* Displays */
